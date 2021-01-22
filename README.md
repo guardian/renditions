@@ -30,10 +30,10 @@ Under the hood, all this does is either use `postMessage` to the native app with
 
 You can install the library inside your project by adding the appropriate git reference in your `package.json`
 
-```json
+```jsonc
 {
   "dependencies": {
-  ...,
+  // ...,
   "@guardian/renditions": "@guardian/renditions": "git+https://github.com/guardian/renditions.git#0.1.0"
   }
 }

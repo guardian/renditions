@@ -11,7 +11,7 @@ React Native app communicates with its WebView in two different ways, based on t
 - _From React Native to the WebView:_ The native app has access to the global context of the WebView and you can inject JavaScript code either as a prop for code you want executed for example on _content loaded_ or with an [`injectJavaScript` method](https://github.com/react-native-webview/react-native-webview/blob/master/docs/Guide.md#communicating-between-js-and-native) which is what this library uses.
 - _From WebView to React Native_ The web context can use `postMessage` to send data to React Native
 
-You can learn more about this int he [official guide](https://github.com/react-native-webview/react-native-webview/blob/master/docs/Guide.md#communicating-between-js-and-native).
+You can learn more about this in the [official guide](https://github.com/react-native-webview/react-native-webview/blob/master/docs/Guide.md#communicating-between-js-and-native).
 
 ### The problems
 
@@ -34,7 +34,7 @@ You can install the library inside your project by adding the appropriate git re
 {
   "dependencies": {
   // ...,
-  "@guardian/renditions": "@guardian/renditions": "git+https://github.com/guardian/renditions.git#0.1.0"
+  "@guardian/renditions": "git+https://github.com/guardian/renditions.git#0.1.0"
   }
 }
 ```

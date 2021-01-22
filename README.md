@@ -30,7 +30,7 @@ Under the hood, all this does is either use `postMessage` to the native app with
 
 You can install the library inside your project by adding the appropriate git reference in your `package.json`
 
-```
+```json
 {
   "dependencies": {
   ...,
@@ -41,7 +41,7 @@ You can install the library inside your project by adding the appropriate git re
 
 To use inside editions-rendering, make use of the `pingEditionsNative` function:
 
-```
+```typescript
 import {
 	MessageKind,
 	pingEditionsNative,
@@ -52,7 +52,7 @@ pingEditionsNative({ kind: MessageKind.Share })
 
 To use inside the Editions app, make use of the `pingEditionsRenderingJsString` function:
 
-```
+```typescript
 import {
   MessageKind,
   Platform,

@@ -1,6 +1,6 @@
 {
   "name": "@guardian/renditions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Types and communication layer between Editions and editions-rendering",
   "main": "dist/communications.js",
   "types": "dist/communications.d.ts",

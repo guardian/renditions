@@ -17,7 +17,7 @@ export const enum MessageKind {
   Lightbox = "Lightbox",
 }
 
-type ShareMessage = {
+export type ShareMessage = {
   kind: MessageKind.Share;
 };
 
@@ -26,17 +26,17 @@ export type PlatformMessage = {
   value: Platform;
 };
 
-type PlatformQueryMessage = {
+export type PlatformQueryMessage = {
   kind: MessageKind.PlatformQuery;
 };
 
-type LightboxMessage = {
+export type LightboxMessage = {
   kind: MessageKind.Lightbox;
   index: number;
   isMainImage: boolean;
 };
 
-type Message =
+export type Message =
   | ShareMessage
   | PlatformMessage
   | PlatformQueryMessage

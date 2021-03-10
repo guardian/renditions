@@ -10,7 +10,7 @@ declare global {
   }
 }
 
-export const enum MessageKind {
+export enum MessageKind {
   Share = "Share",
   Platform = "Platform",
   PlatformQuery = "PlatformQuery",

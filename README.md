@@ -68,3 +68,11 @@ const platformMessage: PlatformMessage = {
 webView.injectJavaScript(pingEditionsRenderingJsString(platformMessage));
 
 ```
+
+### Publish to NPM
+
+We use the [np library](https://github.com/sindresorhus/np) to publish.
+
+```
+$ npm run release
+```

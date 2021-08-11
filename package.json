@@ -1,6 +1,6 @@
 {
   "name": "@guardian/renditions",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Types and communication layer between Editions and editions-rendering",
   "main": "dist/communications.js",
   "types": "dist/communications.d.ts",
@@ -15,7 +15,6 @@
     "build": "tsc",
     "prepare": "npm run build",
     "release": "np"
-
   },
   "repository": {
     "type": "git",
